@@ -42,7 +42,7 @@ public class CityController {
 
 
         City result = this.cityService.findByCityName(name);
-        if (result != null && !result.getName().equals("")) {
+        if (result.getName() != null && !result.getName().equals("")) {
             return new ResponseHandler().generateResponse("Object Found", HttpStatus.FOUND, result);
         }
         throw new CustomErrorException("Object Not Found", HttpStatus.NOT_FOUND, new Date());
