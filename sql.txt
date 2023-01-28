@@ -25,10 +25,10 @@ VALUES
 
 
 //decrypted passwords
-username - test1
+username - test1 with "ROLE_ALLOW_EDIT"
 password`- test1
 
-username - test2
+username - test2 with "MEMBER"
 password - test2
 
 
