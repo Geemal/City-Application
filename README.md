@@ -1,7 +1,7 @@
 # City-Application
 Configuration
 
-1.Create a database named "testapp".
+1.Create a MySql database named "testapp".
 
 2.Import the project to a IDE(Intellij) as a Maven project.
 
