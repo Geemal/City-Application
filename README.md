@@ -7,7 +7,7 @@ Configuration
 
 3.Run the "CityApplication.java".
 
-4.Run Sql commands in the "sql.txt" file to add sample users and add the roles.
+4.Run Sql commands in the "sql.txt" file to add sample users and the roles.
 
 5.Use the REST Api client tool(postman) to test below endpoints.
 
