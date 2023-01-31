@@ -1,0 +1,36 @@
+
+//sql statements to insert users
+INSERT INTO `testapp`.`user`
+(`user_seq`,`email`,`first_name`,`is_enable`,`last_name`,`password`,`user_name`)
+VALUES
+(1,'test@gmail.com','John',true,'Doe','$2a$12$lClwI1DSdoyeXianlA/wwO.YYyZwXhOff/kd1B36P7.IzBpcH4GeK','test1');
+
+INSERT INTO `testapp`.`user`
+(`user_seq`,`email`,`first_name`,`is_enable`,`last_name`,`password`,`user_name`)
+VALUES
+(3,'test2@gmail.com','Nick',true,'Jay','$2a$12$FhVXzXyYRl.8o9nJmf.4keaD4x1b.t81Y/VacU2CWY4p8acc3llHy','test2');
+
+
+
+//sql statements to inser roles
+INSERT INTO `testapp`.`role`
+(`role_seq`,`role_name`,`user_seq`)
+VALUES
+(1,'ROLE_ALLOW_EDIT',1);
+
+INSERT INTO `testapp`.`role`
+(`role_seq`,`role_name`,`user_seq`)
+VALUES
+(2,'MEMBER',2);
+
+
+//decrypted passwords
+username - test1 with "ROLE_ALLOW_EDIT"
+password`- test1
+
+username - test2 with "MEMBER"
+password - test2
+
+
+
+
